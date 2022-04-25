@@ -463,33 +463,6 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	S["feature_xeno_tail"]				>> features["xenotail"]
 	S["feature_xeno_dors"]				>> features["xenodorsal"]
 	S["feature_xeno_head"]				>> features["xenohead"]
-	//cock features
-	S["feature_has_cock"]				>> features["has_cock"]
-	S["feature_cock_shape"]				>> features["cock_shape"]
-	S["feature_cock_color"]				>> features["cock_color"]
-	S["feature_cock_length"]			>> features["cock_length"]
-	S["feature_cock_diameter"]			>> features["cock_diameter"]
-	S["feature_cock_taur"]				>> features["cock_taur"]
-	S["feature_cock_visibility"]		>> features["cock_visibility"]
-	//balls features
-	S["feature_has_balls"]				>> features["has_balls"]
-	S["feature_balls_color"]			>> features["balls_color"]
-	S["feature_balls_size"]				>> features["balls_size"]
-	S["feature_balls_visibility"]		>> features["balls_visibility"]
-	//breasts features
-	S["feature_has_breasts"]			>> features["has_breasts"]
-	S["feature_breasts_size"]			>> features["breasts_size"]
-	S["feature_breasts_shape"]			>> features["breasts_shape"]
-	S["feature_breasts_color"]			>> features["breasts_color"]
-	S["feature_breasts_producing"]		>> features["breasts_producing"]
-	S["feature_breasts_visibility"]		>> features["breasts_visibility"]
-	//vagina features
-	S["feature_has_vag"]				>> features["has_vag"]
-	S["feature_vag_shape"]				>> features["vag_shape"]
-	S["feature_vag_color"]				>> features["vag_color"]
-	S["feature_vag_visibility"]			>> features["vag_visibility"]
-	//womb features
-	S["feature_has_womb"]				>> features["has_womb"]
 	//flavor text
 	//Let's make our players NOT cry desperately as we wipe their savefiles of their special snowflake texts:
 	if((S["flavor_text"] != "") && (S["flavor_text"] != null) && S["flavor_text"]) //If old text isn't null and isn't "" but still exists.
