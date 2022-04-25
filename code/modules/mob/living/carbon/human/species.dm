@@ -598,6 +598,7 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 				standing += right_eye
 
 	//Underwear, Undershirts & Socks
+	/*
 	if(!(NO_UNDERWEAR in species_traits))
 		var/datum/sprite_accessory/taur/TA
 		if(mutant_bodyparts["taur"] && H.dna.features["taur"])
@@ -640,7 +641,7 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 					MA = mutable_appearance(T.icon, state, -BODY_LAYER)
 				if(T.has_color)
 					MA.color = "#[H.shirt_color]"
-				standing += MA
+				standing += MA*/
 
 	//Warpaint and tattoos
 	if(H.warpaint)
